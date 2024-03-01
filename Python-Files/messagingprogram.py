@@ -1,6 +1,17 @@
 import im
 import time
 
+""" 
+Mohamed Farid Patel
+March 2024
+
+Run this file to start the program. 
+This file can be run on two devices/terminals, 
+as only two users are allowed to message each other.
+"""
+
+    
+
 server = im.IMServerProxy("/Applications/XAMPP/xamppfiles/htdocs/MessagingClient/IMserver.php")
 messagekey = {"Doctor": 0, "Nurse": 0}
 lastseenmessagekey = None
